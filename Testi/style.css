@@ -1,0 +1,75 @@
+.firstbox {
+    font-size: 20px;
+    font-family: 'Petemoss', cursive;
+    height: 500px;
+    width: 1400px;
+    background-image: url("Luvri.png");
+    background-repeat: no-repeat;
+    border-radius: 10%;
+  box-shadow: 15px 15px 10px rosybrown,
+                  25px 25px 10px rosybrown,
+                      -15px -15px 10px rosybrown;
+              
+  
+    }
+ .firstbox:hover {
+     font-size: 20px;
+  height: 500px;
+    width: 1400px;
+    background-image: url("Luvre.jpg");
+    background-repeat: no-repeat;
+    box-shadow: 15px 15px 10px burlywood,
+                  25px 25px 10px burlywood,
+                      -15px -15px 10px burlywood;
+  
+
+    }
+
+
+    #mydiv {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    #mydiv {
+        padding: 50px;
+    }
+    a {
+        color: palevioletred;
+        text-align: center;
+    }
+
+.center {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .Contact {
+    font-family: 'Petemoss', cursive;;
+  }
+
+  #Main {
+        padding: 1em;
+        height: 5%;
+      font-family: 'Petemoss', cursive;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+  }
+
+  #Main div {
+align-items: center;
+margin: 1px;
+width: 10%
+  }
+
+  .flex-box {
+    display: flex;
+    align-content: right;
+    justify-content: right;
+    display: flex
+    
+}
